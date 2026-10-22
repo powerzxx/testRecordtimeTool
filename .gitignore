@@ -1,0 +1,29 @@
+# Historical layout experiments and local source snapshots
+/test/
+
+# User records, backups, local settings, and packaged output
+*.log
+*.txt
+*.bak
+*.tmp
+*.zip
+*.7z
+/buttons.json
+/preferences.json
+/window.json
+/dist/
+/artifacts/
+
+# Credentials and local environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and operating-system metadata
+/.vs/
+/.vscode/
+*.lnk
+Thumbs.db
+Desktop.ini
